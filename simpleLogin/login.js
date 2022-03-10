@@ -1,8 +1,7 @@
-let userRole = prompt("Who's there?");
-let password;
+let userRole = prompt("Who's there? ");
 
 if (userRole === 'Admin') {
-    password = prompt("Enter password: ")
+    let password = prompt("Enter password: ")
     if (password === 'TheMaster') {
         alert('Welcome')
     }
